@@ -29,9 +29,10 @@ public class Product {
     @Basic
     private String name;
 
-
+// remove special characters
+ 
     @NotNull
-    @Min(value = 1, message = "Le prix est trop bas")
+    @Min(value = 1, message = "Le prix est trop bas")    
     @Basic
     private Double price;
 
